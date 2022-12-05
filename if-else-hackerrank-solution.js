@@ -21,7 +21,7 @@ function readLine() {
 }
 
 
-# // Yazmanız gereken kısım burası.
+// Yazmanız gereken kısım burası.
 function main() {
     const N = parseInt(readLine().trim(), 10); // Olduğu gibi bırakıyoruz.
     
