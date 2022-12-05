@@ -1,2 +1,1 @@
-# github.io.zehraseren
-If/Else HackerRank Challenge Solution
+# If/Else HackerRank Challenge Solution
