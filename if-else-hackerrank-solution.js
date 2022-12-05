@@ -21,9 +21,9 @@ function readLine() {
 }
 
 
-
+# // Yazmanız gereken kısım burası.
 function main() {
-    const N = parseInt(readLine().trim(), 10);
+    const N = parseInt(readLine().trim(), 10); // Olduğu gibi bırakıyoruz.
     
     if (N%2 == 1) { //Burada ```% (mod alma)``` operatörünü kullanarak ```N```'in tek mi çift mi olduğunu gösteriyoruz.
         console.log ("Weird");
