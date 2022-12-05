@@ -24,13 +24,13 @@ function readLine() {
 
 
 // *************************************KODU YAZMANIZ GEREKEN KISIM BURASI*************************************
-function getLetter(s) {
+function getLetter(s) { //Eğitimin sonundaki fotoğrafı referans alarak yaptım. 
     // Write your code here
-    switch(s.charAt(0))
+    switch(s.charAt(0)) //Yukarıdaki bilgiler arasında "Hint" kısmında dikkat ettiyseniz "s[i]" veya "s.charAt(i)" yazabilirsiniz demiş.
     {
-        case ('a' || 'e' || 'i' || 'o' || 'u'):
+        case ('a' || 'e' || 'i' || 'o' || 'u'): //Çoklu  seçim olduğu için parantez içinde ve "|| (veya)" operatörünü kullanarak yazdım. Ayrıca "case" sonunda ":" koymayı unutmayalım!
             return 'A';
-            break;
+            break; // Yazmazsak bir sonraki "case"e gidece ve bu döngü durmayacaktır. O yüzden "break" yazmayı unutmayalım.
         
         case ('b' || 'c' || 'd' || 'f' || 'g'):
             return 'B';
@@ -45,4 +45,3 @@ function getLetter(s) {
             break;
     }
 }
-
