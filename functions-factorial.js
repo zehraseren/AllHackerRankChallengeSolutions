@@ -23,7 +23,7 @@ function readLine() {
 }
 
 // *************************************KODU YAZMANIZ GEREKEN KISIM BURASI*************************************
-function factorial (n) { //Recursion kısmındaki verieln örneği referans alarak yapabilirsiniz.
+function factorial (n) { //Recursion kısmındaki verilen örneği referans alarak yapabilirsiniz (Çözüm mantığı açısından, algoritma videolarını izleyenler hatırlayacaktır).
     return (n === 1) ? n : (n*factorial(n-1))
 }
 
