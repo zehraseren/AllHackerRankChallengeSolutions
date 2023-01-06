@@ -33,7 +33,7 @@ function getSecondLargest(nums) {
     let result = nums.sort((a, b) => b - a); //Burada sort ile sayıları büyükten küçüğe doğru sıralıyoruz.
     let secondLargest = 0;
     let largestNumber = result[0]; //Yaptığımız sıralamada en büyük sayının Index'ini belirtiyoruz.
-    for(let i = 0; i < result.length; i++){ //Burada for döngüsünü kullanarak istediğimiz sonucu elde ediyoruz.
+    for(let i = 0; i < result.length; i++){ //Burada for döngüsünü kullanıyoruz ve şartları belirterek sonucu elde ediyoruz.
         if(result[i] < largestNumber && result[i] > secondLargest){
             secondLargest = result[i];
         }
