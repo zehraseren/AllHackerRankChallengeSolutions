@@ -40,3 +40,4 @@ function getSecondLargest(nums) {
     } return secondLargest;
 }
 
+[Patika.dev](https://www.patika.dev/tr)
