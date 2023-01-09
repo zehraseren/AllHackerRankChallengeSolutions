@@ -1,3 +1,5 @@
+/* Link -> https://www.hackerrank.com/challenges/js10-function/problem?h_r=profile */
+
 'use strict';
 
 process.stdin.resume();
